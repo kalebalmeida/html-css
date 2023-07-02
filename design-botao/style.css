@@ -1,0 +1,14 @@
+
+.btn{
+background-color:  rgb(200,24,15);
+color: white;
+border: 1px solid rgb(150, 21, 14);
+border-radius: 4px;
+font-size: 14px;
+text-align: center;
+padding: 10px;
+}
+
+.btn:hover{
+    
+}

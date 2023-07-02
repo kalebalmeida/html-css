@@ -1,0 +1,131 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+}
+.hero{
+    background-image:url(imagens/bg-3.jpg);
+    height: 800px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+.hero nav li{
+    display: inline-block; /* transforma o li em elemento de bloco */
+    list-style: none; /* Tira os marcadores da lista */
+    /*padding: 10px; /* Aumenta  a distancia entre as palavras do menu*/
+    border: solid 1px white; /* Cria uma borda branca em torno do menu */
+    
+}
+
+.hero nav a{
+
+    /*background-color: #000000; /* aplico inicialmente a cor preta */
+    /* background-color: rgb(0, 0, 0); */
+    background-color: rgba(0, 0, 0, 0.3); /* aplicado a transparencia */
+    display: block; /* Transformo o link em elemento de bloco */
+    padding: 10px; /* tiro o paddin da li e passo par ao a */
+    color: white; /*aprica a cor branca ao texto do link */
+    text-decoration: none; /* tiro o sublinhado dos textos */
+    text-transform: uppercase; /* coloca as fontes em maiusculo */
+    font-size: 12px; /* coloca o tamanho das fontes em 12 px */
+    letter-spacing: 2px; /* coloca 2 pixels de espaços entre as letras */
+    
+}
+.hero nav a:hover{
+    background-color: rgba(0, 0, 0, 0.5); /* coloquei a transição quando passar o mouse sobre o link, mudando a opacidade */
+}
+.hero nav ul{
+    text-align: right;
+    margin: 20px 50px 0 0;
+}
+
+.hero-content{
+    text-align:center;
+    color: white;
+    margin: 150px;
+}
+.hero-content h1{
+    text-transform: uppercase;
+    margin-top: 300px;
+    font-size: 46px;
+    text-shadow: 3px 3px 5px #333;
+}
+.hero-content p{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 2px solid white;
+    font-family: sans-serif;
+    padding: 10px;
+    margin: auto 550px auto 550px;
+    
+}
+
+main{
+    width: 80%;
+    margin:auto;
+    
+}
+
+.content-section{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    
+    
+}
+
+
+.content-header{
+    border-bottom: solid 2px #ccc;
+    padding: 10px;
+}
+
+.card{
+    width: 32%;
+    display: inline-block;
+    float: left;
+    box-sizing:border-box;
+    margin-left: 1%;
+    text-align: center;
+    background-color: rgb(51, 45, 45);
+    color: white;
+    text-transform: uppercase;
+}
+.card-1, .card-2{
+    margin-right: 2%;
+}
+.card img{
+    width: 100%;
+
+}
+
+.card p{
+    background-color: #252520;
+    color: white;
+    text-transform: uppercase ;
+    padding: 10px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+
+.content-header{
+    border-bottom: solid 2px #ccc;
+    padding: 10px;
+}
+
+.content-header h2{
+    margin: 0;
+}
+
+.rodape{
+
+    height: 80px;
+    color:white;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(59, 56, 56);
+    background: #6b6c68;
+    line-height: 80px;
+    margin-top: 15px;
+}
