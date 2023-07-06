@@ -9,9 +9,14 @@
             background-color: brown;
             height: 100vh;
             background-image: url('imagens/wallpaper002.jpg');
-            background-size: 100% 100%;
             background-position: center center;
             background-repeat: no-repeat;
+            background-attachment: fixed;
+
+            /* shorthand - background 
+            color > image > position > repeat > [size] > attachment  */
+
+            background: brown url('imagens/wallpaper002.jpg') center center no-repeat fixed;
         }
         main{
             background-color: white;
